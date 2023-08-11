@@ -34,6 +34,34 @@ function Studentdetails( named, age, gender, color,  matric,  hobby) {
     "dancing",
   );
 
+    let kate = new Studentdetails(
+    "Kate",
+    "19",
+    "She",
+    "dark",
+    "146578",
+    "dancing",
+  );
+ let john = new Studentdetails(
+    "John",
+    "23",
+    "he",
+    "dark",
+    "146522",
+    "traveling",
+  );
+
+  
+
+  let tola = new Studentdetails(
+    "Tola",
+    "19",
+    "She",
+    "dark",
+    "146246",
+    "reading",
+  );
+
   let sod=new Studentdetails(
     "Sodiq",
     "30",
@@ -67,6 +95,19 @@ function Studentdetails( named, age, gender, color,  matric,  hobby) {
     "143566",
     "playing football"
    )
+
+   
+   let kunle= new Studentdetails(
+    "Kunle",
+    "24",
+    "he",
+    "dark",
+    "142166",
+    "playing football"
+   )
+   const Kunle = () => {
+    kunle.details();
+  };
   
    const Ola = () => {
     ayo.details();
@@ -84,6 +125,17 @@ function Studentdetails( named, age, gender, color,  matric,  hobby) {
 
   const Sodiq =()=>{
     sod.details()
+  }
+  
+  const Tola =()=>{
+    tola.details()
+  }
+    const Kate =()=>{
+    tola.details()
+  }
+
+    const John =()=>{
+    tola.details()
   }
  
   
